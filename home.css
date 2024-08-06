@@ -272,6 +272,10 @@
 
 /* for Mobile */
 @media only screen and (max-width: 481px) {
+    .about-content.shifted, .contact-content.shifted, .products-content.shifted {
+        top: calc(30% + 5em);
+    }
+    
     .product-card {
         width: 100%;
     }
