@@ -232,7 +232,7 @@
     .nav-links.active {
         display: flex;
         position: relative;
-        top: 1.5em;
+        top: 100px;
     }
 
     .ham-menu {
