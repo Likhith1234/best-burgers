@@ -222,7 +222,7 @@
     }
 
     .nav-links {
-        width: 70%;
+        width: 80%;
         margin: auto;
         display: none;
         flex-direction: column;
@@ -232,7 +232,6 @@
         position: absolute;
         max-height: 30%;
         top: 5em;
-        right: 5em;
         background-image: linear-gradient(rgba(30, 30, 30, 0.5), rgba(0,0,0,0.5));
     }
 
