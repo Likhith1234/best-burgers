@@ -253,8 +253,8 @@
     }
 
     .about-content.shifted, .contact-content.shifted, .products-content.shifted {
-        top: 25%;
-        max-height: calc(100vh - 25%);
+        top: calc(30% + 1.5em);
+        max-height: calc(100vh - 35% - 1.5em);
         overflow: auto;
     }
 
