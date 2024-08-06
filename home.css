@@ -227,12 +227,12 @@
         flex-direction: column;
         text-align: center;
         align-items: flex-end;
+        position: relative;
+        top: 1.5em;
     }
 
     .nav-links.active {
         display: flex;
-        position: relative;
-        top: 100px;
     }
 
     .ham-menu {
