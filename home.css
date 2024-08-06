@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*     font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .container {
@@ -229,6 +229,7 @@
         align-items: flex-end;
         position: relative;
         top: 1.5em;
+        color: green;
     }
 
     .nav-links.active {
