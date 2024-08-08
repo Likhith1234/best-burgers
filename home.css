@@ -102,6 +102,53 @@
     padding: 0 2em;
 }
 
+.top {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.right > .contact-form {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn, .contact-form > input, textarea {
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.submit-btn {
+    cursor: pointer;
+    width: 30%;
+    background-color: rgb(54, 54, 137);
+    color: whitesmoke;
+    font-weight: 800;
+    transition: transform 0.5s ease;
+}
+
+.submit-btn:hover {
+    background-color: rgb(6, 6, 152);
+    transform: scale(.9, .9);
+}
+
+.bottom {
+    width: 100%;
+}
+
 .social-links {
     list-style: none;
     display: flex;
@@ -259,6 +306,18 @@
         top: calc(30% + 5em);
         max-height: calc(100vh - 30% - 5em);
         overflow: auto;
+    }
+
+    .contact-content > .top {
+        flex-direction: column-reverse;
+    }
+
+    .top > .left, .right {
+        width: 100%;
+    }
+
+    .right {
+        margin-bottom: 3em;
     }
 
     .product-card {
